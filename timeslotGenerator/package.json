@@ -1,0 +1,26 @@
+{
+  "name": "timeslot-generator",
+  "version": "1.0.0",
+  "description": "A component for generating time slots",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@git.chalmers.se:courses/dit355/2020/group-8/timeslot-generator.git"
+  },
+  "keywords": [
+    "[]"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "moment": "^2.29.1",
+    "mongoose": "^5.11.5",
+    "mqtt": "^4.2.6",
+    "node-fetch": "^2.6.1",
+    "sha256": "^0.2.0",
+    "underscore": "^1.12.0"
+  }
+}
