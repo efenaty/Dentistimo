@@ -1,0 +1,23 @@
+{
+  "name": "userrequestvalidator",
+  "version": "1.0.0",
+  "description": "A validator for data",
+  "main": "validator.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@git.chalmers.se:courses/dit355/2020/group-8/UserRequestValidator.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ajv": "^6.12.6",
+    "async-mqtt": "^2.6.1",
+    "jsonschema": "^1.4.0",
+    "mongoose": "^5.11.1",
+    "mqtt": "^4.2.6"
+  }
+}

@@ -1,0 +1,10 @@
+{
+    "properties": {
+      "userid": {"type": "number"},
+      "requestid" : {"type" : "number"},
+      "dentistid": {"type" : "number"},
+      "issuance" : {"type" : "number"},
+      "time" : {"type" : "string", "format" : "date-time"}
+    },
+    "required" : ["userid", "requestid", "dentistid", "issuance", "time"]
+  }
