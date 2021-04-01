@@ -15,11 +15,11 @@ The four components, or systems, are split up into individual directories. Those
 2. **User Request Validator (including a syntax and semantic filter)**  
    The aim of this component is to validate the data that the user sends through the Booking GUI to the Booking Controller and also validate the schemas. The schemas that will be validated here are the User schema, Clinic schema and Appointment schema.
 It will also filter the booking requests that the users send. For example, if a user sends a booking request with empty/null values through the Booking GUI, it will not process to the Booking Controller. Another example would be if two user sends a booking request for the same time slot, it will process the request according to some priority (will be decided later) and then send it to the Booking Controller.   
-3. **Booking Controller   **
+3. **Booking Controller**  
    The aim of this component is to book the appointments and save them in the MongoDB. 
 
 
-4.  **Timeslot Generator ** 
+4.  **Timeslot Generator**  
    This component fetches the dentists registry and generate time-slots for the clinics. 
 
 ### The Team
@@ -99,6 +99,4 @@ A white box indicates a **task.**
 
 ![FD Diagram](./Documentation/images/FD_diagram_update.png)
 
-## Program Management Report (PMR)
 
-### **Practices**
