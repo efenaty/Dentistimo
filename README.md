@@ -7,20 +7,20 @@ The aim of this project is to create four independent components, which together
 The scope of the system is a service where clients can book dentist appointments through a web application.  
 The project should be built using agile practices, allowing requirements to change over time, with the team being able to adapt their way of working. 
 
-The four components, or systems, are split up into individual repositories. Those include:
+The four components, or systems, are split up into individual directories. Those include:
 
-1. [Graphical User Interface](https://git.chalmers.se/courses/dit355/2020/group-8/GUI) (including a *Map* GUI and *Booking* GUI)   
-   This is the component which allows the user to interact with the system. _(feel free to edit/add more)_   
+1. **Graphical User Interface (including a *Map* GUI and *Booking* GUI)**   
+   This is the component which allows the user to interact with the system.
 
-2. [User Request Validator](https://git.chalmers.se/courses/dit355/2020/group-8/UserRequestValidator) (including a syntax and semantic filter)   
+2. **User Request Validator (including a syntax and semantic filter)**  
    The aim of this component is to validate the data that the user sends through the Booking GUI to the Booking Controller and also validate the schemas. The schemas that will be validated here are the User schema, Clinic schema and Appointment schema.
-It will also filter the booking requests that the users send. For example, if a user sends a booking request with empty/null values through the Booking GUI, it will not process to the Booking Controller. Another example would be if two user sends a booking request for the same time slot, it will process the request according to some priority (will be decided later) and then send it to the Booking Controller. _(feel free to edit/add more)_   
-3. [Booking Controller](https://git.chalmers.se/courses/dit355/2020/group-8/booking-controller)   
-   The aim of this component is to book the appointments and save them in the MongoDB. _(feel free to add more/edit)_   
+It will also filter the booking requests that the users send. For example, if a user sends a booking request with empty/null values through the Booking GUI, it will not process to the Booking Controller. Another example would be if two user sends a booking request for the same time slot, it will process the request according to some priority (will be decided later) and then send it to the Booking Controller.   
+3. **Booking Controller   **
+   The aim of this component is to book the appointments and save them in the MongoDB. 
 
 
-4. [Timeslot Generator](https://git.chalmers.se/courses/dit355/2020/group-8/timeslot-generator)   
-   This component fetches the dentists registry and generate time-slots for the clinics. _(feel free to add more/edit)_   
+4.  **Timeslot Generator ** 
+   This component fetches the dentists registry and generate time-slots for the clinics. 
 
 ### The Team
 
@@ -32,9 +32,6 @@ It will also filter the booking requests that the users send. For example, if a 
 - Effat Enti
 
 ### Resources
-- [_Trello board_](https://trello.com/b/K9fOSQZ5)
-- [_Source code for GUI repository_](https://git.chalmers.se/courses/dit355/2020/group-8/GUI)
-- [_Source code for Booking Controller repository_](https://git.chalmers.se/courses/dit355/2020/group-8/booking-controller)
 - [_Dentists Registry_](https://raw.githubusercontent.com/feldob/dit355_2020/master/dentists.json)
 
 ## Software Requirement Specification (SRS)
@@ -89,7 +86,7 @@ It will also filter the booking requests that the users send. For example, if a 
 
 ### Architectural Diagram
 
-![Architectural Digram](./images/Architectural_diagram.png)
+![Architectural Digram](./Documentation/images/Architectural_diagram.png)
 
 
 
@@ -100,7 +97,7 @@ A yellow box indicates a **subcomponent.**\
 A blue box indicates a **functionality.**\
 A white box indicates a **task.**
 
-![FD Diagram](./images/FD_diagram_update.png)
+![FD Diagram](./Documentation/images/FD_diagram_update.png)
 
 ## Program Management Report (PMR)
 
